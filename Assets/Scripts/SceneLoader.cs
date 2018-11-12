@@ -3,20 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MusicPlayer : MonoBehaviour {
-
-    private void Awake ()
-    {
-        DontDestroyOnLoad(gameObject);
-    }
+public class SceneLoader : MonoBehaviour {
 
     // Use this for initialization
-    void Start ()
+    void Start()
     {
         Invoke("LoadFirstLevel", 3f);
-	}
+    }
 
-    void LoadFirstLevel ()
+    void LoadFirstLevel()
     {
         SceneManager.LoadScene(1);
     }
