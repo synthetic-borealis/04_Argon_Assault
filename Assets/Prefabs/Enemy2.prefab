@@ -21,9 +21,10 @@ GameObject:
   - component: {fileID: 4434015728291764}
   - component: {fileID: 33674060862726430}
   - component: {fileID: 23976418355375596}
+  - component: {fileID: 65935087673424432}
   m_Layer: 0
   m_Name: Enemy2
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35,8 +36,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1129968979809210}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -39.73, y: 31.07, z: -20.42}
-  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_LocalPosition: {x: -39.73, y: 19.63, z: -17.07}
+  m_LocalScale: {x: 15, y: 15, z: 15}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -83,3 +84,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1129968979809210}
   m_Mesh: {fileID: 4300012, guid: ec2ed6fafcc53c64ba923b9ef7d5749f, type: 3}
+--- !u!65 &65935087673424432
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1129968979809210}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.4862932, y: 0.12809297, z: 0.7095401}
+  m_Center: {x: 0, y: -0.0000000037252903, z: -0.000000029802322}
