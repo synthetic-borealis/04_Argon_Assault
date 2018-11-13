@@ -1074,6 +1074,25 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1797404780630982, guid: 3af032f36cab54c4ebcf8a662fc45f47, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114702256117828930, guid: 3af032f36cab54c4ebcf8a662fc45f47,
+        type: 2}
+      propertyPath: deathEffect
+      value: 
+      objectReference: {fileID: 2072364664}
+    - target: {fileID: 114702256117828930, guid: 3af032f36cab54c4ebcf8a662fc45f47,
+        type: 2}
+      propertyPath: levelLoadDelay
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114702256117828930, guid: 3af032f36cab54c4ebcf8a662fc45f47,
+        type: 2}
+      propertyPath: deathFX
+      value: 
+      objectReference: {fileID: 2072364664}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3af032f36cab54c4ebcf8a662fc45f47, type: 2}
   m_IsPrefabAsset: 0
@@ -2593,6 +2612,11 @@ Transform:
   m_Father: {fileID: 5658448}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2072364664 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1797404780630982, guid: 3af032f36cab54c4ebcf8a662fc45f47,
+    type: 2}
+  m_PrefabInternal: {fileID: 776106386}
 --- !u!1001 &2083416530
 Prefab:
   m_ObjectHideFlags: 0
