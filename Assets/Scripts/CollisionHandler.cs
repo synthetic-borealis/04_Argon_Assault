@@ -15,7 +15,6 @@ public class CollisionHandler : MonoBehaviour {
 
     private void StartDeathSequence()
     {
-        print("Player died");
         deathFX.SetActive(true);
         SendMessage("OnPlayerDeath");
 
