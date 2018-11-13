@@ -56,7 +56,8 @@ GameObject:
   - component: {fileID: 95282114706456868}
   - component: {fileID: 65938215683454736}
   - component: {fileID: 54752204392879342}
-  - component: {fileID: 114625451326430512}
+  - component: {fileID: 114442729690459102}
+  - component: {fileID: 114702256117828930}
   m_Layer: 0
   m_Name: StarSparrow1
   m_TagString: Untagged
@@ -846,7 +847,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -857,7 +858,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1125294203271702}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 2.6, y: 1.1, z: 3.4}
@@ -880,7 +881,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &114625451326430512
+--- !u!114 &114442729690459102
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -898,6 +899,17 @@ MonoBehaviour:
   controlPitchFactor: -20
   positionYawFactor: 7
   controlRollFactor: -30
+--- !u!114 &114702256117828930
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1125294203271702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b618c14012ff08a4b953f13ca8e54627, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!198 &198235816709157092
 ParticleSystem:
   m_ObjectHideFlags: 1
