@@ -1093,6 +1093,22 @@ Prefab:
       propertyPath: deathFX
       value: 
       objectReference: {fileID: 2072364664}
+    - target: {fileID: 1024119302180744, guid: 3af032f36cab54c4ebcf8a662fc45f47, type: 2}
+      propertyPath: m_Name
+      value: Bullets Left
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232704744161228, guid: 3af032f36cab54c4ebcf8a662fc45f47, type: 2}
+      propertyPath: m_Name
+      value: Bullets Right
+      objectReference: {fileID: 0}
+    - target: {fileID: 4893743942202758, guid: 3af032f36cab54c4ebcf8a662fc45f47, type: 2}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285686610715902, guid: 3af032f36cab54c4ebcf8a662fc45f47, type: 2}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3af032f36cab54c4ebcf8a662fc45f47, type: 2}
   m_IsPrefabAsset: 0
