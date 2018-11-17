@@ -355,6 +355,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathFX: {fileID: 1403133630081888, guid: a3874d023d8e80542b49052d441362c0, type: 2}
+  parent: {fileID: 155725114}
+--- !u!1 &155725113
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 155725114}
+  m_Layer: 0
+  m_Name: Spawned At Runtime
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &155725114
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 155725113}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -27.298439, y: 16.055887, z: -20.727322}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &284761149 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4419414012843730, guid: ab9cb3b54426599428c7e12405b5673d,
@@ -1141,6 +1170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathFX: {fileID: 1403133630081888, guid: a3874d023d8e80542b49052d441362c0, type: 2}
+  parent: {fileID: 155725114}
 --- !u!1 &868505392
 GameObject:
   m_ObjectHideFlags: 0
@@ -1867,6 +1897,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathFX: {fileID: 1403133630081888, guid: a3874d023d8e80542b49052d441362c0, type: 2}
+  parent: {fileID: 155725114}
 --- !u!1001 &1238499762
 Prefab:
   m_ObjectHideFlags: 0
