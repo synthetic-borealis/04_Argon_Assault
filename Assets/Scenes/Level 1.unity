@@ -1032,6 +1032,11 @@ MonoBehaviour:
   progressStyle: 0
   pointToPointThreshold: 4
   target: {fileID: 534669905}
+--- !u!1 &553083822 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1217381635449450, guid: 6a32728dc553b714bb8711dd51ef462d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1238499762}
 --- !u!1001 &576326190
 Prefab:
   m_ObjectHideFlags: 0
@@ -1107,6 +1112,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4142866058384508, guid: 04744195108e61d4e9889f25944ca4ce,
     type: 2}
   m_PrefabInternal: {fileID: 399570544}
+--- !u!1 &614318280 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1632763437550748, guid: 6a32728dc553b714bb8711dd51ef462d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1238499762}
 --- !u!1 &670797307
 GameObject:
   m_ObjectHideFlags: 0
@@ -2002,6 +2012,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 534669905}
     m_Modifications:
+    - target: {fileID: 114599051044638388, guid: 6a32728dc553b714bb8711dd51ef462d,
+        type: 2}
+      propertyPath: guns.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4012513787133088, guid: 6a32728dc553b714bb8711dd51ef462d, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0.14160538
@@ -2032,6 +2047,24 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4012513787133088, guid: 6a32728dc553b714bb8711dd51ef462d, type: 2}
       propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114599051044638388, guid: 6a32728dc553b714bb8711dd51ef462d,
+        type: 2}
+      propertyPath: guns.Array.data[0]
+      value: 
+      objectReference: {fileID: 614318280}
+    - target: {fileID: 114599051044638388, guid: 6a32728dc553b714bb8711dd51ef462d,
+        type: 2}
+      propertyPath: guns.Array.data[1]
+      value: 
+      objectReference: {fileID: 553083822}
+    - target: {fileID: 1217381635449450, guid: 6a32728dc553b714bb8711dd51ef462d, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632763437550748, guid: 6a32728dc553b714bb8711dd51ef462d, type: 2}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
