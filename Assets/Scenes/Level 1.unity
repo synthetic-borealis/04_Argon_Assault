@@ -1278,7 +1278,7 @@ MonoBehaviour:
   deathFX: {fileID: 1403133630081888, guid: a3874d023d8e80542b49052d441362c0, type: 2}
   parent: {fileID: 155725114}
   scorePerHit: 12
-  hits: 10
+  hits: 3
 --- !u!1 &868505392
 GameObject:
   m_ObjectHideFlags: 0
@@ -2007,7 +2007,7 @@ MonoBehaviour:
   deathFX: {fileID: 1403133630081888, guid: a3874d023d8e80542b49052d441362c0, type: 2}
   parent: {fileID: 155725114}
   scorePerHit: 12
-  hits: 10
+  hits: 3
 --- !u!1001 &1238499762
 Prefab:
   m_ObjectHideFlags: 0
