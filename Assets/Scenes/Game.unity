@@ -1997,11 +1997,11 @@ Prefab:
       objectReference: {fileID: 1673493169}
     - target: {fileID: 1217381635449450, guid: 6a32728dc553b714bb8711dd51ef462d, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1632763437550748, guid: 6a32728dc553b714bb8711dd51ef462d, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114599051044638388, guid: 6a32728dc553b714bb8711dd51ef462d,
         type: 2}
@@ -2012,6 +2012,11 @@ Prefab:
         type: 2}
       propertyPath: yRange
       value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 198947980379138894, guid: 6a32728dc553b714bb8711dd51ef462d,
+        type: 2}
+      propertyPath: EmissionModule.enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6a32728dc553b714bb8711dd51ef462d, type: 2}
