@@ -34,6 +34,11 @@ public class Enemy : MonoBehaviour {
         }
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        KillEnemy();
+    }
+
     private void ProcessHits()
     {
         scoreBoard.ScoreHit(scorePerHit);
